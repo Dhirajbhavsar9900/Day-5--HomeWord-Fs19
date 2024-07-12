@@ -1,0 +1,10 @@
+.paragra {
+    display: flex;
+    margin: 50px;
+    justify-content: center;
+    flex-direction: column;
+}
+p{
+    font-size: 20px;
+    color: black;
+}
