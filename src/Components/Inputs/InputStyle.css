@@ -1,5 +1,6 @@
 .container{
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 .intput{
@@ -9,6 +10,8 @@
     outline-style: none;
     border: none;
     width: 50px;
+    text-align: center;
+    font-size: 20px;
 }
 .para{
     font-size: 1.2rem;
@@ -29,4 +32,26 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
     font-weight: 700;
+}
+
+.paragra{
+    width: 600px;
+    font-family: monospace;
+
+}
+
+.paragra p{
+    background-color: cornsilk;
+    padding: 20px;
+    margin: 5px;
+    font-size: 17px;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.dynamic{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    padding: 5px;
 }
